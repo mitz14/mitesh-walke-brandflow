@@ -99,12 +99,17 @@ const Contact = () => {
               Whether you need creative content, technical development, or strategic 
               collaboration, our team is here to help bring your ideas to life.
             </p>
-            <a 
-              href="mailto:miteshwalkebussiness@gmail.com"
+            <button 
+              onClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               className="inline-block bg-white text-charcoal px-8 py-3 text-sm tracking-wider hover:bg-warm-beige transition-luxury"
             >
               START A CONVERSATION
-            </a>
+            </button>
           </div>
         </div>
       </div>
