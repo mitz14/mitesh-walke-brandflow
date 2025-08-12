@@ -80,12 +80,17 @@ const Services = () => {
               Let's discuss how we can bring your vision to life with our comprehensive 
               creative services and collaborative approach.
             </p>
-            <a 
-              href="mailto:miteshwalkebussiness@gmail.com"
+            <button 
+              onClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               className="inline-block bg-charcoal text-white px-8 py-3 text-sm tracking-wider hover:bg-charcoal/90 transition-luxury"
             >
               GET IN TOUCH
-            </a>
+            </button>
           </div>
         </div>
       </div>
