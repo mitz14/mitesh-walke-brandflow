@@ -20,13 +20,13 @@ const Contact = () => {
     {
       icon: Instagram,
       label: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/miteshwalke",
       username: "@miteshwalke"
     },
     {
       icon: Youtube,
       label: "YouTube",
-      href: "#",
+      href: "https://www.youtube.com/@MiteshWalke14",
       username: "Mitesh Walke"
     }
   ];
