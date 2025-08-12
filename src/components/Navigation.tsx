@@ -42,7 +42,7 @@ const Navigation = () => {
               isScrolled ? 'text-charcoal' : 'text-white'
             }`}
           >
-            MITESH WALKE
+            MW
           </button>
           
           {/* Desktop Navigation */}
